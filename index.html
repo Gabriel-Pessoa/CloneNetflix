@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--Google Fonts-->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+
+    <!--Css da página-->
+    <link rel="stylesheet" href="./style/main.css">
+
+    <!--Responsividade-->
+    <link rel="stylesheet" href="style/responsive.css">
+
+    <!--owl css-->
+    <link rel="stylesheet" href="style/owl/owl.carousel.min.css">
+    <link rel="stylesheet" href="style/owl/owl.theme.default.min.css">
+
+    <title>Netflix Clone</title>
+</head>
+
+<body>
+
+    <header>
+        <div class="container">
+            <h2 class="logo">NETFLIX</h2>
+            <nav>
+                <a href="./index.html">Início</a>
+                <a href="#">Séries</a>
+                <a href="#">Filmes</a>
+                <a href="#">Documentários</a>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <div class="main-movie">
+            <div class="container">
+                <h3 class="title">HOUSE OF CARDS</h3>
+                <p class="description">Um político inescrupuloso não mede esforços para conquistar o poder nos EUA neste
+                    drama vencedor do Emmy e do Globo de Ouro.
+                </p>
+                <div class="container-buttons">
+                    <button role="button" class="button">
+                        <i class="fas fa-play"></i>
+                        Assistir agora
+                    </button>
+                    <button role="button" class="button">
+                        <i class="fas fa-info-circle"></i>
+                        Mais informações
+                    </button>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <div class="carousel-movies">
+        <div class="owl-carousel owl-theme">
+            <div class="item">
+                <img class="box-movie" src="assets/img/home/mini1.jpg" alt="Filme 1">
+            </div>
+            <div class="item">
+                <img class="box-movie" src="assets/img/home/mini2.jpg" alt="Filme 2">
+            </div>
+            <div class="item">
+                <img class="box-movie" src="assets/img/home/mini3.jpg" alt="Filme 3">
+            </div>
+            <div class="item">
+                <img class="box-movie" src="assets/img/home/mini4.jpg" alt="Filme 4">
+            </div>
+            <div class="item">
+                <img class="box-movie" src="assets/img/home/mini5.jpg" alt="Filme 5">
+            </div>
+            <div class="item">
+                <img class="box-movie" src="assets/img/home/mini6.jpg" alt="Filme 6">
+            </div>
+            <div class="item">
+                <img class="box-movie" src="assets/img/home/mini7.jpg" alt="Filme 7">
+            </div>
+            <div class="item">
+                <img class="box-movie" src="assets/img/home/mini8.jpg" alt="Filme 8">
+            </div>
+            <div class="item">
+                <img class="box-movie" src="assets/img/home/mini9.jpg" alt="Filme 9">
+            </div>
+            <div class="item">
+                <img class="box-movie" src="assets/img/home/mini10.jpg" alt="Filme 10">
+            </div>
+        </div>
+    </div>
+
+    <!--FontAwesome-->
+    <script src="https://kit.fontawesome.com/3997d24708.js" crossorigin="anonymous"></script>
+
+    <!--Owl JS-->
+    <script src="js/owl/jquery.min.js"></script>
+    <script src="js/owl/owl.carousel.min.js"></script>
+    <script src="js/owl/main.js"></script>
+
+    <!--My Script-->
+
+    <script>
+
+        $('button').click(e => {
+            window.location.href = './pages/movie/movie.html'
+        })
+
+    </script>
+
+</body>
+
+</html>

@@ -1,0 +1,4 @@
+1) Mudança da font-family.
+2) Criar nova página com descrição do filme e player do trailer.
+3) Melhoria responsividade da div com título, descrição e botões.
+4) Navegação.

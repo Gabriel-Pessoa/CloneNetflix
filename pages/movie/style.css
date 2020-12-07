@@ -1,0 +1,32 @@
+body {
+    min-width: 640px;
+}
+
+main#content-movie {
+    background: url("../../assets/img/movie/fundo1.jpg");
+    background-size: cover;
+}
+
+.movie-container {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start; 
+
+    padding: 20px 0;
+}
+
+.movie-container img {
+    max-height: 400px;
+}
+
+.description-container {
+    margin-left: 10px;
+}
+
+.trailer-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    padding: 20px 10px;
+}
